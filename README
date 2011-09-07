@@ -1,0 +1,46 @@
+Apache+MySQL+Php+Mediawiki Auto-installer for Windows
+-----------------------------------------------------------------------------------
+Author: Thiyagaraj Krishna http://th.iy.ag / http://thiya.net
+
+Description:
+
+This is a NSIS (Nullsoft Scriptable Install System) script that autoinstalls Apache, 
+PHP, MySQL and Mediawiki. This was done when I was back in college when each computer 
+in the lab required to have its standalone version of Mediawiki installed locally.
+
+I am just uploading this for reference purpose if the silent install command line arguments
+will help anyone create something similar. In the original implementation, A splash screen
+will appear and then ask for a directory to install the appication to, and then it will
+install Apache, MySQL, PHP and then finally Mediawiki. Mediawiki was cutomized to remove some
+of the installation questions and setting defaults to them to simplify installation.
+
+I am only uploading the installation script without the corresponding supporting software
+packages.
+
+License:
+
+Copyright 2008 Thiyagaraj Krishna. All rights reserved.
+
+Redistribution and use in source and binary forms, with or without modification, are
+permitted provided that the following conditions are met:
+
+   1. Redistributions of source code must retain the above copyright notice, this list of
+      conditions and the following disclaimer.
+
+   2. Redistributions in binary form must reproduce the above copyright notice, this list
+      of conditions and the following disclaimer in the documentation and/or other materials
+      provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY THIYAGARAJ KRISHNA ''AS IS'' AND ANY EXPRESS OR IMPLIED
+WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND
+FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THIYAGARAJ KRISHNA OR
+CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
+ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+The views and conclusions contained in the software and documentation are those of the
+authors and should not be interpreted as representing official policies, either expressed
+or implied, of Thiyagaraj Krishna.
